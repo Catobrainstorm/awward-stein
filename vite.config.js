@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/awward-stein/', // Your GitHub repo name
+  base: process.env.NODE_ENV === 'production' ? '/awward-stein/' : '/',
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
