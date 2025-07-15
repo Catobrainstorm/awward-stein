@@ -3,11 +3,11 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: './', // Important for GitHub Pages
+  base: '/awward-stein/', // Your GitHub repo name
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
-    sourcemap: false, // Set to true if you want source maps
+    sourcemap: false,
     rollupOptions: {
       output: {
         manualChunks: {

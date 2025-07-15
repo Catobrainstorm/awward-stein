@@ -37,3 +37,24 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.temp
+
+# Large media files
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.mp3
+*.wav
+*.flac
+*.aac
+
+# Large images (optional - only if very large)
+*.psd
+*.ai
+*.sketch
+
+# Specific large folders
+public/video/
+public/audio/
+public/assets/large/
